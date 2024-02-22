@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tổng quan Module 4 CodeGym</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="./frontend/assets/css/style.css">
+  <link rel="stylesheet" href="./frontend/assets/css/styles.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./frontend/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./frontend/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./frontend/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./frontend/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./frontend/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./frontend/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./frontend/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./frontend/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./frontend/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./frontend/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./frontend/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Script -->
+  <script src="./frontend/assets/js/main.js"></script>
+</head>
+<body>
+  <div id="app">
+    <!-- Make Header -->
+    <header id="header">
+
+    </header>
+    <script>
+        load("#header", "./frontend/templates/header-codegym.html");
+    </script>
+
+    <!-- Make Main -->
+    <main id="main">
+      <h2>WEB BACKEND DEVELOPMENT WITH SPRING MVC (MODULE 4)</h2>
+      <h3>1. Giới thiệu tổng quan</h3>
+      <p>
+        Module Web Backend Development with Spring MVC giúp học viên làm chủ công nghệ phát
+        triển ứng dụng WEB, xây dựng được các website hoàn thiện bằng ngôn ngữ Java. Cùng với
+        đó, module này còn giúp học viên phát triển thành thạo các ứng dụng web dựa trên Spring
+        Framework và đồng thời biết cách để mở rộng năng lực thông qua việc học các Framework
+        mới.
+      </p>
+      <h3>2. Mục tiêu</h3>
+      <p>
+        Kết thúc module học viên thiết kế được website, xây dựng được các ứng dụng web sử dụng
+        nền tảng Spring MVC. Ngoài ra, học viên còn rèn luyện kĩ năng tự học, quản lý công việc và
+        bước đầu tìm hiểu các thông tin về nghề nghiệp.
+      </p>
+      <h3>3. Cài đặt môi trường</h3>
+      <div>
+        <details>
+          <summary>Intellij IDEA</summary>
+          <p>
+            Intellij IDEA là một trình IDE dùng để lập trình Java (nó cũng được sử dụng để lập trình một số ngôn ngữ khác như Node.js, Python…).
+            Các bạn nên sử dụng những phiên bản mới nhất của Intellij IDEA để có thể có được những tính năng mới nhất (nên sử dụng từ phiên bản 2021 trở lên nhé!)
+          </p>
+          <p>Trong bài viết này tôi sẽ hướng dẫn tải Intellij IDEA phiên bản 2022.3.3 : 
+            <ul style="padding: 0 1.6rem;">
+              <li>Đối với Windows: <a href="https://download.jetbrains.com/idea/ideaIU-2022.3.3.exe?_gl=1*1ye06l9*_ga*Nzg1MDczMjQxLjE3MDY2MzcyNDc.*_ga_9J976DJZ68*MTcwODU5NjQ0OS44LjEuMTcwODU5NjU1Mi42MC4wLjA.&_ga=2.125839181.1324000767.1708591822-785073241.1706637247" class="link-a">LINK DOWNLOAD</a></li>
+              <li>Đối với Mac: <a href="https://download.jetbrains.com/idea/ideaIU-2022.3.3.dmg?_gl=1*x79kgn*_ga*Nzg1MDczMjQxLjE3MDY2MzcyNDc.*_ga_9J976DJZ68*MTcwODU5NjQ0OS44LjEuMTcwODU5NjYzOC42MC4wLjA.&_ga=2.134071502.1324000767.1708591822-785073241.1706637247" class="link-a">LINK DOWNLOAD</a></li>
+            </ul> 
+          </p>
+          <p>Link hướng dẫn cách setup Intellij IDEA: <a href="https://stackjava.com/intellij-idea/intellij-idea-la-gi-cai-dat-intellij-idea-tren-windows.html" class="link-a">LINK XEM HƯỚNG DẪN</a></p>
+        </details>
+        <details>
+          <summary>Gradle</summary>
+          <p>
+            Trong IntelliJ IDEA, Gradle là một công cụ được tích hợp để quản lý và xây dựng dự án phần mềm. Gradle là một công cụ quản lý dự án mã nguồn mở và được sử dụng rộng rãi trong cộng đồng phát triển phần mềm.
+            Gradle cho phép bạn định nghĩa cách tổ chức dự án và các phụ thuộc, cũng như cách xây dựng, kiểm tra và triển khai ứng dụng của bạn. Nó sử dụng cú pháp đơn giản và linh hoạt dựa trên Groovy hoặc Kotlin để mô tả cấu trúc của dự án và quy trình xây dựng.
+          </p>
+          <p>
+            Hướng dẫn cách 
+          </p>
+        </details>
+        <details>
+          <summary>JDK</summary>
+          <p>     
+            JDK là viết tắt của "Java Development Kit" (Bộ công cụ phát triển Java). Đây là một bộ công cụ bao gồm các công cụ và thư viện cần thiết để phát triển ứng dụng bằng ngôn ngữ lập trình Java. 
+          </p>
+          <p>Phiên bản JDK khuyến dùng: 1.8<br>
+            Phiên bản khác: 19
+          </p>
+          <p>Hướng dẫn cài đặt:
+            Sau khi ấn vào New Project, tải JDK bằng cách nhấn vào phần lựa chọn <b>JDK: </b> , nếu đã tải thì chọn bản JDK 1.8 hoặc JDK khác tương thích, nếu chưa tải thì ấn vào <b>Download JDK</b> và chọn phiên bản tải tương thích.
+          </p>
+          <img src="/frontend/assets/img/JDK-setup1.png" alt="" width="80%">
+          <img src="/frontend/assets/img/JDK-setup2.png" alt="" width="80%">
+          <p>Cách thay đổi JDK sau khi đã thiết lập: 
+
+          </p>
+        </details>
+        <details>
+          <summary>Spring Framework</summary>
+          <p>
+            Spring Framework là một bộ công cụ phát triển ứng dụng Java mạnh mẽ và phổ biến. Nó cung cấp một cách tiếp cận linh hoạt và mạnh mẽ cho việc xây dựng các ứng dụng Java phức tạp, từ các ứng dụng web đơn giản đến các hệ thống doanh nghiệp lớn.
+          </p>
+        </details>
+        <details>
+          <summary>Tomcat 8.5 trở lên</summary>
+          <p>Apache Tomcat, thường được gọi là Tomcat, là một máy chủ ứng dụng web mã nguồn mở được phát triển bởi Apache Software Foundation. Tomcat được thiết kế để chạy ứng dụng web và cung cấp một môi trường chạy cho các ứng dụng web Java Servlet và JavaServer Pages (JSP).</p>
+          <p>Link tải Tomcat phiên bản 9.0.86: <a href="https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.86/bin/apache-tomcat-9.0.86.zip" class="link-a">LINK DOWNLOAD</a></p>
+        </details>
+        <details>
+          <summary>Servlet api 3.1.0, jsp api 2.3.1, jstl 1.2</summary>
+        </details>
+        <details>
+          <summary>Mysql 8</summary>
+        </details>
+      </div>
+
+    </main>
+    <!-- Make footer -->
+    <footer id="footer">
+
+    </footer>
+  </div>
+</body>
+</html>

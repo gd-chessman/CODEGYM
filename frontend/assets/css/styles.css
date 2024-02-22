@@ -1,0 +1,75 @@
+/*-------------- Reset CSS----------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+#app{
+
+}
+/* -----------------------------CSS cho phần Header (phần đầu trang web) -----------------------------------*/
+#header{
+  
+}
+/* -----------------------------CSS cho phần Main (phần thân trang web) -----------------------------------*/
+#main{
+
+}
+.listNumber{
+    padding: 0 1.6rem;
+}
+/* -----------------------------CSS cho phần Footer (phần cuối trang web) ---------------------------------*/
+#footer{
+
+}
+
+a{
+    color: black;
+}
+h2{
+    color: #571fd8;
+}
+h3{
+    color: green;
+}
+
+/* Các class phụ trợ */
+.link-a{
+    color: orange;
+}
+
+
+/* ------------------------------------------Responsive -------------------------------------------*/
+/* @media screen {  */
+  /* Được dùng khi không ăn responsive */
+/* } */
+
+/* Màn hình Desktop cực lớn */
+@media screen and (min-width: 1920px){
+
+}
+/* Màn hình Desktop lớn */
+@media screen and (max-width: 1492px){
+
+}
+/* Màn hình Desktop */
+@media screen and (max-width: 1200px){
+
+}
+/* Màn hình Tablet lớn */
+@media screen and (max-width: 992px){
+
+}
+/* Màn hình Tablet */
+@media screen and (max-width: 768px) {
+
+}
+/* Màn hình Mobile */
+@media screen and (max-width : 534px){
+
+}
+/* Màn hình Mobile cực nhỏ */
+@media screen and (max-width : 320px){
+
+}
