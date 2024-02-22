@@ -169,12 +169,14 @@
     color: black;
     font-size: large;
   }
+
+  } */
   .button-menu{
     background-color: #0f172a;
     border: none;
     cursor: pointer;
-  } */
-
+    color: white;
+  }
 /* CSS cho Slider */
 #sliderImage{
     
@@ -343,7 +345,11 @@
     animation: scroll_4013 0.5s linear infinite;
     transform: translateY(40%);
   }
-  
+/* CSS cho các class phụ*/
+.icon-size{
+    width: 28px;
+    height: 28px;
+}
 
 /* ------------------------------------------Responsive -------------------------------------------*/
 /* @media screen {  */
