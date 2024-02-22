@@ -301,6 +301,7 @@ html{
 .footer-content ul{
   margin-top: 6px;
   margin-bottom: 20px;
+  list-style: none;
 }
 .footer-content a{
   color: black;
