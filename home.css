@@ -389,7 +389,7 @@
 /* Màn hình Tablet */
 @media print,screen and (max-width: 768px) {
     .slider{
-        height: 400px;
+        height: 220px;
     }
     .nav-link-header .nav li:first-child >a{
         font-size: 0 !important;
