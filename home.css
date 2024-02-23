@@ -25,7 +25,7 @@
 #header .logo > a{
     text-transform: uppercase;
     white-space: nowrap;
-    padding: 10px;
+    padding: 0px;
     --k: 0;
     place-self: center;
     background: 
