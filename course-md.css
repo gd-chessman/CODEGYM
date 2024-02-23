@@ -93,6 +93,7 @@
 /* -----------------------------CSS cho phần Main (phần thân trang web) -----------------------------------*/
 #main{
   width: 100%;
+  padding: 4px;
 }
 table{
   margin: auto;
