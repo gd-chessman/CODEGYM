@@ -222,6 +222,10 @@
     border: none;
     font-family: monospace;
     font-weight: bold;
+    opacity: 0.3;
+}
+.slider .buttons button:hover{
+  opacity: 1;
 }
 .slider .dots{
     position: absolute;
