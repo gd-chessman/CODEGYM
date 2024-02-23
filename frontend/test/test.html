@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ReactJS</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 </head>
+
 <body>
-    <div id="slider-banner-item">
-        <video width="100%" id="myVideo" autoplay loop controls>
-            <source src="/frontend/assets/video/intro.mp4" type="video/mp4">
-        </video>          
-    </div>
+
+    <div id="root"></div>
+    <script type="text/babel">
+       	const courses = [
+        	{
+          		name: 'HTML, CSS'
+          },
+          {
+          		name: 'Responsive web design'
+          },
+          {
+          		name: 'ReactJS'
+          }
+        ]
+        const ul = <ul>
+        	{courses.map(course => {
+          		return <li>{course.name}</li>
+          })}
+        </ul>
+        ReactDOM.render(ul, document.getElementById('root'))
+    </script>
 </body>
+
 </html>
