@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Học IT cùng tôi</title>
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="login.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./frontend/assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./frontend/assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./frontend/assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./frontend/assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./frontend/assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./frontend/assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./frontend/assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./frontend/assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./frontend/assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./frontend/assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./frontend/assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Script -->
+  <script src="main.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Make Header -->
+        <header id="header"></header>
+        <script>
+            load("#header", "./frontend/templates/header.html");
+        </script>
+        <!-- Don't Make Slider -->
+        <!-- Make Main -->
+        <main id="container">
+            <div class="login-box">
+                <p>CHESSMAN</p>
+                <form>
+                  <div class="user-box">
+                    <input required="" name="" type="text">
+                    <label>Email hoặc số điện thoại</label>
+                  </div>
+                  <div class="user-box">
+                    <input required="" name="" type="password">
+                    <label>Password</label>
+                  </div>
+                  <div class="forget-pass">Quên mật khẩu!</div>
+                  <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Đăng nhập
+                  </a>
+                </form>
+                <p>Bạn chưa có tài khoản? <a href="" class="a2">Đăng ký!</a></p>
+              </div>
+        </main>  
+        <!-- Make Footer -->
+        <footer id="footer">
+            <script>
+                load("#footer", "./frontend/templates/footer.html");
+            </script>
+        </footer>
+    </div>
+  <script src="home.js"></script>
+</body>
+</html>

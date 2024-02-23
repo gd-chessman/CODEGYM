@@ -49,8 +49,6 @@
   .header-top{
     width: 100%;
     background-color: #0f172a;
-    /* background-color: #c3cfe2;
-    background-image: linear-gradient(0deg, #f5f7fa 0%, #c3cfe2 50%); */
     height: 60px;
   }
   .header-top .nav-link-header{
