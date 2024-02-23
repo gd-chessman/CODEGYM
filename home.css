@@ -261,8 +261,8 @@
     flex-wrap: wrap;
 }
 .nameCourse{
-    width: 23%;
-    margin: 1%;
+    width: 24%;
+    margin: 0.5%;
 }
 /* -----------------------------CSS cho phần Footer (phần cuối trang web) ---------------------------------*/
 #footer{
@@ -382,6 +382,9 @@
       .header-top .nav-link-header ul li:last-child{
         display: flex;
       }
+     .nameCourse{
+      width: 32.3%;
+     } 
 }
 /* Màn hình Tablet */
 @media screen and (max-width: 768px) {
@@ -401,8 +404,20 @@
       .header-top ul{
         justify-content: space-between;
       }
+      .nav-link-header ul li:nth-child(3){
+        width: 100%;
+      }
+      .nav-link-header .group{
+        width: min(300px,100%);
+        width: 150%;
+      }
+      .nameCourse{
+        width: 49%;
+      }
 }
 /* Màn hình Mobile cực nhỏ */
 @media screen and (max-width : 320px){
-
+  .nameCourse{
+    width: 100%;
+  }
 }
