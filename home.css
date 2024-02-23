@@ -369,7 +369,7 @@
 
 }
 /* Màn hình Tablet lớn */
-@media screen and (max-width: 992px){
+@media print,screen and (max-width: 992px){
     .header-top .nav-link-header ul{
         justify-content: space-between;
       }
@@ -387,7 +387,7 @@
      } 
 }
 /* Màn hình Tablet */
-@media screen and (max-width: 768px) {
+@media print,screen and (max-width: 768px) {
     .slider{
         height: 400px;
     }
@@ -396,7 +396,7 @@
     }
 }
 /* Màn hình Mobile */
-@media screen and (max-width : 534px){
+@media print,screen and (max-width : 534px){
     .header-top ul li:first-child{
         font-size: large;
         white-space: nowrap; /* Ngăn chữ xuống dòng */   
