@@ -222,7 +222,7 @@
     border: none;
     font-family: monospace;
     font-weight: bold;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 .slider .buttons button:hover{
   opacity: 1;
