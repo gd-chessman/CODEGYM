@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReactJS</title>
-    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Information</title>
+  <!-- Nạp thư viện Vue.js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 </head>
-
 <body>
+  <!-- Địa điểm để Vue.js thêm nội dung -->
+  <div id="app">
+    <h1>Student Information</h1>
+    <!-- Sử dụng v-for để lặp qua danh sách học sinh và hiển thị thông tin của mỗi học sinh -->
+    <ul>
+      <li v-for="student in students">
+        {{ student.name }} - {{ student.age }} years old - Grade: {{ student.grade }}
+      </li>
+    </ul>
+  </div>
 
-    <div id="root"></div>
-    <script type="text/babel">
-       	const courses = [
-        	{
-          		name: 'HTML, CSS'
-          },
-          {
-          		name: 'Responsive web design'
-          },
-          {
-          		name: 'ReactJS'
-          }
+  <script>
+    // Tạo một instance Vue
+    new Vue({
+      el: '#app', // Liên kết Vue instance với thẻ có id="app"
+      data: {
+        students: [ // Mảng chứa thông tin của các học sinh
+          { name: 'John', age: 15, grade: '10th' },
+          { name: 'Jane', age: 16, grade: '11th' },
+          { name: 'Alice', age: 14, grade: '9th' },
+          { name: 'Bob', age: 17, grade: '12th' }
         ]
-        const ul = <ul>
-        	{courses.map(course => {
-          		return <li>{course.name}</li>
-          })}
-        </ul>
-        ReactDOM.render(ul, document.getElementById('root'))
-    </script>
+      }
+    });
+  </script>
 </body>
-
 </html>
